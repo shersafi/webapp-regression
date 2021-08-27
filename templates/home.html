@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculate the Accuracy and Visualize Data</title>
+</head>
+<body style="background-color:powderblue">
+    <h1 style="text-align: center;">Calculate the Accuracy and Visualize Data</h1>
+    <div class="elements" style="text-align: center;">
+        <form action="/plot" method="POST">
+            Input CSV file:
+            <input type="file" name="mycsv"><br><br/>
+            What is your target column:
+            <input type="text" name="target"><br><br/>
+            What column would you like to eliminate (For multiple, separate with ',' for example, address,name):
+            <input type="text" name="eliminate">
+            <br/><br/><button type="submit">Click Here</button>
+        </form>
+    </div>
+</body>
+</html>
